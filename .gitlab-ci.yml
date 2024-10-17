@@ -1,0 +1,21 @@
+stages:
+  - build
+
+build:
+  stage: build
+  image: centos:centos7
+  script:
+    - yum install -y gcc gcc-devel gcc-c++ make bison flex gmp-devel ncurses-devel postgresql-devel
+    - yum install -y wget
+    - wget -O opensource-cobol-1.5.2J.tar.gz https://github.com/opensourcecobol/opensource-cobol/archive/refs/tags/v1.5.2J.tar.gz
+    - sleep 5
+    - tar zxvf opensource-cobol-1.5.2J.tar.gz && cd opensource-cobol-1.5.2J/vbisam && ./configure --prefix=/usr/ && make install && cd .. && ./configure --prefix=/usr/ --with-vbisam && make install
+    - cd ..
+    - rm -rf opensource-cobol-1.5.2J.tar.gz opensource-cobol-1.5.2J
+    - wget -O Open-COBOL-ESQL-1.3.tar.gz https://github.com/opensourcecobol/Open-COBOL-ESQL/archive/refs/tags/v1.3.tar.gz
+    - sleep 5
+    - tar zxvf Open-COBOL-ESQL-1.3.tar.gz && cd Open-COBOL-ESQL-1.3 && ./configure --prefix=/usr/ && make install
+    - cd ..
+    - rm -rf Open-COBOL-ESQL-1.3.tar.gz Open-COBOL-ESQL-1.3
+    - ls
+    - cobc -free -x -o Hello-World Hello-World.cbl
