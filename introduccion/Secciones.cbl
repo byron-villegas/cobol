@@ -6,7 +6,9 @@
       ******************************************************************
        IDENTIFICATION DIVISION. *> Nombre del programa, author, etc
        PROGRAM-ID. SECCIONES. *> Nombre del programa
-       AUTHOR BYRON-VILLEGAS-MOYA.
+       AUTHOR. BYRON VILLEGAS MOYA.
+       DATE-WRITTEN. 17-10-2024.
+       REMARKS. Secciones.
 
        ENVIRONMENT DIVISION. *> Informacion del entorno, ordenador en el que se ha escrito, ordenador donde se ejecutara
 
@@ -15,7 +17,6 @@
        WORKING-STORAGE SECTION.
 
        PROCEDURE DIVISION. *> Procedimientos a ejecutar en el programa
-       MAIN-PROCEDURE.
             DISPLAY "Hello world"
             STOP RUN.
        END PROGRAM SECCIONES.

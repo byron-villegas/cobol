@@ -6,7 +6,9 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. TIPOS-DE-DATOS.
-       AUTHOR BYRON-VILLEGAS-MOYA.
+       AUTHOR. BYRON VILLEGAS MOYA.
+       DATE-WRITTEN. 17-10-2024.
+       REMARKS. Tipos de Datos.
 
        DATA DIVISION.
        FILE SECTION.
@@ -31,7 +33,6 @@
            05 ELEM2 PIC X(10).
 
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
             DISPLAY "Hello world" *> Muestra un texto en consola
             DISPLAY 70 *> Imprimir un numero en consola
 

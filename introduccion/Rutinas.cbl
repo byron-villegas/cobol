@@ -5,8 +5,10 @@
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. YOUR-PROGRAM-NAME.
-       AUTHOR BYRON-VILLEGAS-MOYA.
+       PROGRAM-ID. RUTINAS.
+       AUTHOR. BYRON VILLEGAS MOYA.
+       DATE-WRITTEN. 17-10-2024.
+       REMARKS. Rutinas.
 
        DATA DIVISION.
        FILE SECTION.
@@ -14,7 +16,6 @@
 
 
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
             PRIMERA-RUTINA. *> Bloque de codigo (funcion) siempre ejecuta la primera que encuentra
                 DISPLAY "HOLA SOY LA PRIMERA RUTINA"
                 PERFORM SEGUNDA-RUTINA.  *> Llamamos a la funcion SEGUNDA RUTINA
@@ -23,4 +24,4 @@
                 DISPLAY "HOLA SOY LA SEGUNDA RUTINA"
 
             STOP RUN.
-       END PROGRAM YOUR-PROGRAM-NAME.
+       END PROGRAM RUTINAS.

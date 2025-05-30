@@ -6,7 +6,9 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. USO-GO-TO.
-       AUTHOR BYRON-VILLEGAS-MOYA.
+       AUTHOR. BYRON VILLEGAS MOYA.
+       DATE-WRITTEN. 17-10-2024.
+       REMARKS. Uso Go To.
 
 
        DATA DIVISION.
@@ -15,7 +17,6 @@
        77 OPCION PIC X.
 
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
            PERFORM CONTINUACION.
 
            IF OPCION = "N" OR OPCION = "n" THEN
@@ -30,7 +31,7 @@
                STOP RUN.
 
               CONTINUACION.
-                 DISPLAY "¿Ejecutar el programa (S/N)?".
+                 DISPLAY "ï¿½Ejecutar el programa (S/N)?".
                  ACCEPT OPCION.
 
               PROGRAMA.

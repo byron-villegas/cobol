@@ -6,7 +6,9 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. USO-PERFORM-UNTIL.
-       AUTHOR BYRON-VILLEGAS-MOYA.
+       AUTHOR. BYRON VILLEGAS MOYA.
+       DATE-WRITTEN. 17-10-2024.
+       REMARKS. Uso Perform Until.
 
        DATA DIVISION.
        FILE SECTION.
@@ -18,7 +20,6 @@
        77 DIFERENCIA PIC S9(02).
 
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
             DISPLAY "Bienvenido a la busqueda del numero oculto"
 
             DISPLAY

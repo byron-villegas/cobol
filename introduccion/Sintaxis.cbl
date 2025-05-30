@@ -6,7 +6,9 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. SINTAXIS.
-       AUTHOR BYRON-VILLEGAS-MOYA.
+       AUTHOR. BYRON VILLEGAS MOYA.
+       DATE-WRITTEN. 17-10-2024.
+       REMARKS. Sintaxis.
 
        DATA DIVISION.
        FILE SECTION.
@@ -17,7 +19,6 @@
        01 NomBre3 PIC A(30). *> El lenguaje no es case sensitive (no valida mayusculas o minusculas)
 
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
             DISPLAY "Hello world"
             MOVE "HOLA" TO NOMBRE3. *> Como podemos ya sea en minuscula o mayuscula toma la variable
             DISPLAY NOMBRE3 "BYRON".

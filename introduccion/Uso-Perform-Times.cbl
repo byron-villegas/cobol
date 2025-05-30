@@ -6,7 +6,9 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. USO-PERFORM-TIMES.
-       AUTHOR BYRON-VILLEGAS-MOYA.
+       AUTHOR. BYRON VILLEGAS MOYA.
+       DATE-WRITTEN. 17-10-2024.
+       REMARKS.Uso Perform Times.
 
        DATA DIVISION.
        FILE SECTION.
@@ -17,7 +19,6 @@
        77 RESULTADO PIC 9(03).
 
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
            INGRESO-NUMERO.
                DISPLAY
                "Por favor ingrese numero "

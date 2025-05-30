@@ -6,7 +6,9 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. OPERACIONES-ARIT.
-       AUTHOR BYRON-VILLEGAS-MOYA.
+       AUTHOR. BYRON VILLEGAS MOYA.
+       DATE-WRITTEN. 17-10-2024.
+       REMARKS. Operaciones Aritmeticas.
 
        DATA DIVISION.
        FILE SECTION.
@@ -28,8 +30,6 @@
            05 WS-RESULTADO PIC S9(3). *> S9 indica que sera un numero con signo a la izquierda
 
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
-
             MENU-OPCIONES. *> Bloque de codigo (funcion) siempre ejecuta la primera que encuentra
                 DISPLAY "**** MENU DE OPERACIONES ***"
                 DISPLAY "Opciones disponibles: "

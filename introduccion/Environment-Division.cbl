@@ -6,7 +6,9 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. ENVIRONMENT-DIVISION.
-       AUTHOR BYRON-VILLEGAS-MOYA.
+       AUTHOR. BYRON VILLEGAS MOYA.
+       DATE-WRITTEN. 17-10-2024.
+       REMARKS. Environment Division.
 
        ENVIRONMENT DIVISION.
        CONFIGURATION SECTION.
@@ -18,7 +20,6 @@
        WORKING-STORAGE SECTION.
 
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
-            DISPLAY "Hello world"
-            STOP RUN.
+          DISPLAY "Hello world"
+          STOP RUN.
        END PROGRAM ENVIRONMENT-DIVISION.

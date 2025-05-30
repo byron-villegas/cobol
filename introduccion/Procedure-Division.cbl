@@ -6,7 +6,9 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. PROCEDURE-DIVISION.
-       AUTHOR BYRON-VILLEGAS-MOYA.
+       AUTHOR. BYRON VILLEGAS MOYA.
+       DATE-WRITTEN. 17-10-2024.
+       REMARKS. Procedure Division.
 
        DATA DIVISION.
        FILE SECTION.
@@ -16,7 +18,6 @@
        01 EDAD PIC 9(3) VALUE 26. *> Variable de tipo numerico con largo de 3, le agrega ceros a la izquierda y inicializada
 
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
             DISPLAY "Hello world"
             MOVE "BYRON STEVENS" TO NOMBRES *> Le asigna el texto a la variable nombres
             MOVE "VILLEGAS MOYA" TO APELLIDOS *> Le asigna el texto a la variable apellidos
